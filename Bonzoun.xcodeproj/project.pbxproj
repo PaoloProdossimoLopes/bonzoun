@@ -12,19 +12,10 @@
 		52394F582B776FDF0079AC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52394F572B776FDF0079AC8C /* Assets.xcassets */; };
 		52394F5B2B776FDF0079AC8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52394F5A2B776FDF0079AC8C /* Preview Assets.xcassets */; };
 		52394F652B776FDF0079AC8C /* BonzounTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394F642B776FDF0079AC8C /* BonzounTests.swift */; };
-		52394F6F2B776FDF0079AC8C /* BonzounUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394F6E2B776FDF0079AC8C /* BonzounUITests.swift */; };
-		52394F712B776FDF0079AC8C /* BonzounUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394F702B776FDF0079AC8C /* BonzounUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		52394F612B776FDF0079AC8C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52394F482B776FDD0079AC8C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52394F4F2B776FDD0079AC8C;
-			remoteInfo = Bonzoun;
-		};
-		52394F6B2B776FDF0079AC8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52394F482B776FDD0079AC8C /* Project object */;
 			proxyType = 1;
@@ -41,9 +32,6 @@
 		52394F5A2B776FDF0079AC8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52394F602B776FDF0079AC8C /* BonzounTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonzounTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52394F642B776FDF0079AC8C /* BonzounTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonzounTests.swift; sourceTree = "<group>"; };
-		52394F6A2B776FDF0079AC8C /* BonzounUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonzounUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52394F6E2B776FDF0079AC8C /* BonzounUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonzounUITests.swift; sourceTree = "<group>"; };
-		52394F702B776FDF0079AC8C /* BonzounUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonzounUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52394F672B776FDF0079AC8C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +57,6 @@
 			children = (
 				52394F522B776FDD0079AC8C /* Bonzoun */,
 				52394F632B776FDF0079AC8C /* BonzounTests */,
-				52394F6D2B776FDF0079AC8C /* BonzounUITests */,
 				52394F512B776FDD0079AC8C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +66,6 @@
 			children = (
 				52394F502B776FDD0079AC8C /* Bonzoun.app */,
 				52394F602B776FDF0079AC8C /* BonzounTests.xctest */,
-				52394F6A2B776FDF0079AC8C /* BonzounUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,15 +95,6 @@
 				52394F642B776FDF0079AC8C /* BonzounTests.swift */,
 			);
 			path = BonzounTests;
-			sourceTree = "<group>";
-		};
-		52394F6D2B776FDF0079AC8C /* BonzounUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52394F6E2B776FDF0079AC8C /* BonzounUITests.swift */,
-				52394F702B776FDF0079AC8C /* BonzounUITestsLaunchTests.swift */,
-			);
-			path = BonzounUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +135,6 @@
 			productReference = 52394F602B776FDF0079AC8C /* BonzounTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		52394F692B776FDF0079AC8C /* BonzounUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52394F7A2B776FDF0079AC8C /* Build configuration list for PBXNativeTarget "BonzounUITests" */;
-			buildPhases = (
-				52394F662B776FDF0079AC8C /* Sources */,
-				52394F672B776FDF0079AC8C /* Frameworks */,
-				52394F682B776FDF0079AC8C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52394F6C2B776FDF0079AC8C /* PBXTargetDependency */,
-			);
-			name = BonzounUITests;
-			productName = BonzounUITests;
-			productReference = 52394F6A2B776FDF0079AC8C /* BonzounUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +149,6 @@
 						CreatedOnToolsVersion = 15.1;
 					};
 					52394F5F2B776FDF0079AC8C = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 52394F4F2B776FDD0079AC8C;
-					};
-					52394F692B776FDF0079AC8C = {
 						CreatedOnToolsVersion = 15.1;
 						TestTargetID = 52394F4F2B776FDD0079AC8C;
 					};
@@ -221,7 +169,6 @@
 			targets = (
 				52394F4F2B776FDD0079AC8C /* Bonzoun */,
 				52394F5F2B776FDF0079AC8C /* BonzounTests */,
-				52394F692B776FDF0079AC8C /* BonzounUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +184,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		52394F5E2B776FDF0079AC8C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52394F682B776FDF0079AC8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,15 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52394F662B776FDF0079AC8C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52394F712B776FDF0079AC8C /* BonzounUITestsLaunchTests.swift in Sources */,
-				52394F6F2B776FDF0079AC8C /* BonzounUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +217,6 @@
 			isa = PBXTargetDependency;
 			target = 52394F4F2B776FDD0079AC8C /* Bonzoun */;
 			targetProxy = 52394F612B776FDF0079AC8C /* PBXContainerItemProxy */;
-		};
-		52394F6C2B776FDF0079AC8C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52394F4F2B776FDD0079AC8C /* Bonzoun */;
-			targetProxy = 52394F6B2B776FDF0079AC8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -347,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -424,11 +350,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bonzoun/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bonzoun;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.programou.Bonzoun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,11 +384,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bonzoun/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bonzoun;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +399,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.programou.Bonzoun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -478,13 +416,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.programou.BonzounTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonzoun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bonzoun";
 			};
 			name = Debug;
@@ -497,48 +438,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.programou.BonzounTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonzoun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bonzoun";
-			};
-			name = Release;
-		};
-		52394F7B2B776FDF0079AC8C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.programou.BonzounUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Bonzoun;
-			};
-			name = Debug;
-		};
-		52394F7C2B776FDF0079AC8C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.programou.BonzounUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Bonzoun;
 			};
 			name = Release;
 		};
@@ -568,15 +478,6 @@
 			buildConfigurations = (
 				52394F782B776FDF0079AC8C /* Debug */,
 				52394F792B776FDF0079AC8C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52394F7A2B776FDF0079AC8C /* Build configuration list for PBXNativeTarget "BonzounUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52394F7B2B776FDF0079AC8C /* Debug */,
-				52394F7C2B776FDF0079AC8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
