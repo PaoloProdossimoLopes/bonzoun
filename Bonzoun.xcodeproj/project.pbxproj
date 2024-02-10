@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52394F542B776FDD0079AC8C /* BonzounApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394F532B776FDD0079AC8C /* BonzounApp.swift */; };
-		52394F562B776FDD0079AC8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394F552B776FDD0079AC8C /* ContentView.swift */; };
+		52394F562B776FDD0079AC8C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394F552B776FDD0079AC8C /* FeedView.swift */; };
 		52394F582B776FDF0079AC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52394F572B776FDF0079AC8C /* Assets.xcassets */; };
 		52394F5B2B776FDF0079AC8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52394F5A2B776FDF0079AC8C /* Preview Assets.xcassets */; };
 		52394F652B776FDF0079AC8C /* BonzounTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394F642B776FDF0079AC8C /* BonzounTests.swift */; };
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		52394F502B776FDD0079AC8C /* Bonzoun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonzoun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52394F532B776FDD0079AC8C /* BonzounApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonzounApp.swift; sourceTree = "<group>"; };
-		52394F552B776FDD0079AC8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52394F552B776FDD0079AC8C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		52394F572B776FDF0079AC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52394F5A2B776FDF0079AC8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52394F602B776FDF0079AC8C /* BonzounTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonzounTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				52394F532B776FDD0079AC8C /* BonzounApp.swift */,
-				52394F552B776FDD0079AC8C /* ContentView.swift */,
+				52394F552B776FDD0079AC8C /* FeedView.swift */,
 				52394F572B776FDF0079AC8C /* Assets.xcassets */,
 				52394F592B776FDF0079AC8C /* Preview Content */,
 			);
@@ -197,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52394F562B776FDD0079AC8C /* ContentView.swift in Sources */,
+				52394F562B776FDD0079AC8C /* FeedView.swift in Sources */,
 				52394F542B776FDD0079AC8C /* BonzounApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
